@@ -1,0 +1,18 @@
+import turtle
+def rectangle(x, y, a, b, color):
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.color(color)
+    turtle.begin_fill()
+    turtle.forward(a)
+    turtle.left(90)          
+    turtle.forward(b)   
+    turtle.left(90)          
+    turtle.forward(a)    
+    turtle.left(90)          
+    turtle.forward(b)   
+    turtle.left(90)          
+    turtle.end_fill()
+rectangle(-50, -50, 200, 150, "orchid")
+turtle.done()
